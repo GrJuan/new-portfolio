@@ -13,45 +13,53 @@
     color: var(--cyan);
     text-align: end;
 }
-.sub-title.email{
+
+.sub-title.email {
     color: #ef7858;
     font-weight: 500;
 }
-.content .honors{
+
+.content .honors {
     display: flex;
     justify-content: center;
     display: flex;
     align-items: center;
 }
-.content .honors .number{
+
+.content .honors .number {
     font-size: 4em;
     color: var(--cyan);
     margin-right: 5px;
 }
-.content .honors-images{
+
+.content .honors-images {
     display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 0;
 }
-.content .honors-images img{
+
+.content .honors-images img {
     width: 50%;
 }
-.content .honors-images p{
+
+.content .honors-images p {
     color: var(--cyan);
 }
-.content .honors h2{
+
+.content .honors h2 {
     font-size: 1.4em;
     color: var(--cyan);
     font-weight: 500;
 }
+
 .banner {
     width: 100%;
     height: 100%;
     position: relative;
 }
 
-.content{
+.content {
     padding: 0px 7vw;
 }
 
@@ -62,24 +70,28 @@
     align-items: center;
     justify-content: space-between;
 }
-.img{
+
+.img {
     position: absolute;
     align-items: center;
     width: 100%;
     height: 100%;
     margin: 0 auto;
 }
-.img img{
+
+.img img {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     width: 557px;
 }
+
 @media (max-width:920px) {
-    .content{
+    .content {
         padding: 0px;
     }
+
     .banner {
         background-attachment: local;
     }
@@ -96,28 +108,37 @@
         flex-direction: column;
         align-items: flex-start;
     }
+
     .banner .content .sub-title.email {
         display: none;
     }
-    .banner .content .honors, .honors-images{
+
+    .banner .content .honors,
+    .honors-images {
         display: none;
     }
-    .banner .content .honors-images{
+
+    .banner .content .honors-images {
         display: none;
     }
-    .img{
+
+    .img {
         height: 400px !important;
     }
-    .img img{
+
+    .img img {
         width: 100%;
     }
-    .content .name{
+
+    .content .name {
         margin-top: -20px;
     }
-    .sub-title{
+
+    .sub-title {
         display: none;
     }
-    header .logo{
-        font-size: 3.5vw;
+
+    header .logo {
+        width: 100px;
     }
 }

@@ -61,7 +61,7 @@
   top: 15%;
   right: -8px;
   z-index: 99;
-  
+
 }
 
 .entry .title-card.item-2:before {
@@ -119,26 +119,32 @@
 }
 
 @media (max-width:920px) {
-  .content-tecnology{
+  .content-tecnology {
     flex-direction: column-reverse;
     margin-top: 8rem;
   }
-  .title-about-tecnology{
+
+  .title-about-tecnology {
     font-size: 11.5vw;
   }
-  .subtitle-about-tecnology{
+
+  .subtitle-about-tecnology {
     font-size: 3.5vw
   }
-  .content-experience .title-experience{
+
+  .content-experience .title-experience {
     font-size: 8vw;
   }
-  .entry .body{
+
+  .entry .body {
     width: 59%;
   }
-  .entry .body p:first-child{
+
+  .entry .body p:first-child {
     font-size: 4.4vw;
   }
-  .entry .title-card{
+
+  .entry .title-card {
     padding-right: 22px;
   }
 }
