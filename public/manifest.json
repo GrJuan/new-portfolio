@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Juan Manuel Garcia Montealegre",
+  "name": "Desarrollador ReactJs - NodeJS - TypeScript",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +18,25 @@
       "sizes": "512x512"
     }
   ],
+  "shortcuts": [
+    {
+      "name": "Linkedin?",
+      "short_name": "Today",
+      "description": "Contact me",
+      "url": "https://www.linkedin.com/in/grjuanm/",
+      "icons": [{ "src": "/portada.jpeg", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Desarrollador ReactJs - NodeJS - TypeScript",
+  "screenshots": [
+    {
+      "src": "/portada.jpeg",
+      "type": "image/png",
+      "sizes": "540x720"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#0d2f3f"
 }
